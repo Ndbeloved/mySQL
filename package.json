@@ -1,0 +1,19 @@
+{
+  "name": "employeeapi",
+  "version": "1.0.0",
+  "description": "An application that demonstrates my knowledge of SQL database",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Dev Cisco",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mysql2": "^3.9.2",
+    "nodemon": "^3.1.0"
+  }
+}
